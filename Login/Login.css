@@ -225,3 +225,20 @@ a {
 a:hover {
     color: var(--first-color);
 }
+#close {
+    text-align: center;
+}
+
+#close input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #D72638;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#close input[type="submit"]:hover {
+    background-color: #F4AC45;
+}
