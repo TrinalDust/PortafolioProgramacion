@@ -1,4 +1,4 @@
-import { ManageAccount } from "./FirebaseConfi.js";
+import { ManageAccount } from "./FirebaseConfig.js";
 document.getElementById("formulario-sesion").addEventListener("submit", (event) => {
     event.preventDefault();
 

@@ -33,6 +33,16 @@ body{
     position: relative;
 }
 
+.btn-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 30px;
+}
 /*----------------------------- LOGIN FORM -----------------------*/
 .Fomulario-Ingresar {
     display: flex;

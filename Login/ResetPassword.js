@@ -1,4 +1,4 @@
-import { ManageAccount } from "./FirebaseConfi.js";
+import { ManageAccount } from "./FirebaseConfig.js";
 
 document.getElementById("form-Recuperar").addEventListener("submit", (event) => {
     event.preventDefault();
