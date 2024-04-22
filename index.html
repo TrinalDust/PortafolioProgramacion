@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---------------UNICONS------------------------>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!---------------CSS------------------------>
+    <link rel="stylesheet" href="/Assets/CSS/Style.css">
+    <!---------------FAVICON------------------------>
+    <link rel="shortcut icon" href="/Assets/Images/LogoXxu.jpeg" type="image/x-icon">
+
+    <title>Portafolio Fundamentos</title>
+</head>
+<body>
+    <!---------------HEADER------------------------>
+    <div class="Container">
+        <nav class="header">
+            <div class="nav-logo">
+                <p class="nav-name">Gabovel.dev</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Inicio</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">Sobre mí</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Proyectos</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="tu_cv.pdf" class="nav-link">Descargar CV <i class="uil uil-file-download-alt"></i></a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn" onclick="redirectToLoginPage()">Iniciar Sesión</button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="menuFunction()"></i>
+            </div>
+        </nav>
+    </div>
+
+    <!---------------MAIN------------------------>
+    <main class="wrapper">
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Gabriel Velázquez Aparicio</span>
+                </div>
+                <div class="featured-name">
+                    <p>Soy <span class="typedText"> Gabriel</span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>
+                        Gracias a mi enfoque multifacético y mi habilidad para fusionar la imaginación con la técnica me convierten en un activo invaluable en cualquier equipo creativo. 
+                    </p>
+                </div>
+                <div class= "featured-text-btn">
+                    <button class="btn blue-btn">Contrátame</button>
+                    <button class="btn">Descargar CV<i class="uil uil-file-download-alt"></i></button>
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="/Assets/Images/LogoXxu.jpeg" alt="avatar">
+                </div>
+            </div>
+        </section>
+        <!-----------------------------SECTION PROJECTS------------------------------------------>
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Proyectos</h1>
+            </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Completados</h3>
+                    <label>25 Proyectos terminados</label>
+                </div>
+
+                <div class="project-box">
+                    <i class="uil uil-users-alt"></i>
+                    <h3>Clientes</h3>
+                    <label>25 Clientes satisfechos</label>
+                </div>
+
+                <div class="project-box">
+                    <i class="uil uil-award"></i>
+                    <h3>Experiencia</h3>
+                    <label>1 año en el campo</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Ponte en contacto</h1>
+                <span>¿Tienes un proyecto en mente? ¡Contáctame aquí!</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Encuéntrame <i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i>gabvelapa@gmail.com</a></p>
+                        <p><i class="uil uil-phone"></i>+52 477 580 2780</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-control">
+                        <div class="form-input">
+                            <input type="text" class="input-field" placeholder="Nombre">
+                            <input type="text" class="input-field" placeholder="Correo">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Mensaje"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn">Enviar <i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------------------------FOOTER------------------------------------------>
+        <div class="social-bar">
+            <a href="#" class="social-icon"><i class="uil uil-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="uil uil-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="uil uil-instagram"></i></a>
+            <!-- Agrega más enlaces para otras redes sociales si lo deseas -->
+        </div>
+    </main>
+
+    <!---------------TYPING IN JS------------------------>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!---------------SCROLL REVEAL IN JS------------------------>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!---------------MAIN JS------------------------>
+    <script src="/Assets/JS/main.js"></script>
+</body>
+</html>

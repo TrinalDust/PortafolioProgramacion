@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/*--------------VARIABLES GLOBALES--------------------*/
+:root{
+    --color-black: #111117;
+    --color-white: #F3EEF6;
+    --first-color: #D72638;
+    --second-color:  #F4AC45;
+    --first-shadow-color: #000;
+}
+
+/*--------------BASE--------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("/Assets/gifs/fire.gif");
+    background-size: cover;
+    background-color: var(--color-black);
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+
+/*----------------------------- LOGIN FORM -----------------------*/
+.Fomulario-Ingresar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
+}
+
+.Fomulario-Ingresar h1 {
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-bottom: 20px;
+}
+
+.Fomulario-crearcuenta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
+}
+
+.Fomulario-crearcuenta h1 {
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-bottom: 20px;
+}
+
+.Fomulario-Recuperar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
+}
+
+.Fomulario-Recuperar h1 {
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-bottom: 20px;
+}
+
+#formulario-sesion {
+    width: 100%;
+}
+
+#formulario-sesion label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--color-black);
+}
+
+#formulario-sesion input[type="email"],
+#formulario-sesion input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-white);
+    border: solid 2px var(--first-shadow-color);
+    border-radius: 20px;
+    outline: none;
+    color: var(--color-black);
+}
+
+#formulario-sesion input[type="submit"] {
+    width: 100%;
+    background-color: var(--first-color);
+    color: var(--color-white);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#formulario-sesion input[type="submit"]:hover {
+    background-color: var(--second-color);
+}
+
+#formulario-crear {
+    width: 100%;
+}
+
+#formulario-crear label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--color-black);
+}
+
+#formulario-crear input[type="email"],
+#formulario-crear input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-white);
+    border: solid 2px var(--first-shadow-color);
+    border-radius: 20px;
+    outline: none;
+    color: var(--color-black);
+}
+
+#formulario-crear input[type="submit"] {
+    width: 100%;
+    background-color: var(--first-color);
+    color: var(--color-white);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#formulario-crear input[type="submit"]:hover {
+    background-color: var(--second-color);
+}
+
+#form-Recuperar {
+    width: 100%;
+}
+
+#form-Recuperar label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--color-black);
+}
+
+#form-Recuperar input[type="email"],
+#form-Recuperar input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-white);
+    border: solid 2px var(--first-shadow-color);
+    border-radius: 20px;
+    outline: none;
+    color: var(--color-black);
+}
+
+#form-Recuperar input[type="submit"] {
+    width: 100%;
+    background-color: var(--first-color);
+    color: var(--color-white);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#form-Recuperar input[type="submit"]:hover {
+    background-color: var(--second-color);
+}
+
+.Fomulario-Ingresar a {
+    margin-top: 10px;
+    color: var(--first-color); 
+    text-decoration: none;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: var(--color-black); 
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--first-color);
+}
